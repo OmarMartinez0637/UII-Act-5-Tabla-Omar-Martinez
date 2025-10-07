@@ -5,4 +5,4 @@ from django.db import models
 class Menu(models.Model):
     nombre= models.CharField(max_length=100)
     precio= models.FloatField()
-    descripcion= models.CharField(max_length=100)
+    descripcion= models.CharField(max_length=200)
